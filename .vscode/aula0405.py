@@ -16,10 +16,7 @@ def carregar_dados():
         def cadastrar():
             nome = input("Digite o nome do cliente:")
             email = input ("Digite o e-mail do clienet")
-            cliente = {
-                "nome"= nome
-                "email":email
-            } 
+           
             clientes.append (cliente)
             salvar_dados()
         def salvar_dados():
